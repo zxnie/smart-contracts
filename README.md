@@ -17,6 +17,10 @@ This repository offers a testbed for smart contracts designed to maintain operat
 
 - **Wireless Communication Tracking**: Utilizes `simpy` to keep track of the wireless communications between robots and controllers.
 
+## Getting Started
+- Dependencies are listed in pyproject.toml.
+- Main file is lib_simulation_v5.py, wrapped as object and how to use it is shown in thge main function.
+
 ## Resources
 - Blockchain code is adapted from: [section.io - How to create a blockchain in Python](https://www.section.io/engineering-education/how-to-create-a-blockchain-in-python/)
 - Dataset is sourced from: [WaferMap by Junliangwangdhu](https://github.com/Junliangwangdhu/WaferMap)
