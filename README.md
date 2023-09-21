@@ -1,6 +1,6 @@
 # Smart Contract Testbed for Cyber-Physical Multi-Robot Systems in Smart Factories
 
-This repository offers a testbed for smart contracts designed to maintain operational integrity in a cyber-physical multi-robot system set within a smart factory.
+This repository offers a testbed for smart contracts designed to maintain operational integrity in a cyber-physical multi-robot system set within a smart factory practicing federated learning.
 
 ## Highlights
 - **Multiple Controllers & Clients**: The architecture supports multiple edge servers (controllers) and multiple robotic agents (clients).
@@ -19,7 +19,8 @@ This repository offers a testbed for smart contracts designed to maintain operat
 
 ## Getting Started
 - Dependencies are listed in pyproject.toml.
-- Main file is lib_simulation_v5.py, wrapped as object and how to use it is shown in thge main function.
+- Main file is lib_simulation_v5.py, wrapped as object and how to use it is shown in the main function.
+- The blockchain will be saved as a json file, and federated learning results and wireless results will be saved as a pkl file, an example is given.
 
 ## Resources
 - Blockchain code is adapted from: [section.io - How to create a blockchain in Python](https://www.section.io/engineering-education/how-to-create-a-blockchain-in-python/)
