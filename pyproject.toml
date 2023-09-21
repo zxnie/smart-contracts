@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "smart-contracts"
+version = "0.1.0"
+description = ""
+authors = ["Zixiang Nie <nzx93116@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+numpy = "^1.26.0"
+tqdm = "^4.66.1"
+torch = "^2.0.1"
+simpy = "^4.0.2"
+cryptography = "^41.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
